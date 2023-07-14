@@ -2,4 +2,4 @@ body {background-color: aqua;}
 main {border: 3cm 2px solid powderblue; padding: 3px;}
 .container {display: grid; grid-row: flex;}
 row::after {float: left;}
-[class*='col-']{float: left;}
+[class*='col-'] #id {float: left;}
