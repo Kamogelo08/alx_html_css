@@ -1,7 +1,7 @@
 body {background-color: aqua;}
 main {border: 3cm 2px solid powderblue; padding: 3px;}
 /* Grid 
-.section {display: flex; row;} 
+#id {display: flex; row;} 
 */
 row::after {float: left;}
 .class {columns:-0 ;}
