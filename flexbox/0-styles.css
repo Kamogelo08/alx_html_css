@@ -4,4 +4,4 @@ main {border: 3cm 2px solid powderblue; padding: 3px;}
 #id {display: flex; row;} 
 */
 row::after {float: left;}
-.class {columns:-0 ;}
+[class*='col-']{float: left;}
