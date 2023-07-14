@@ -1,5 +1,5 @@
 body {background-color: aqua;}
 main {border: 3cm 2px solid powderblue; padding: 3px;}
-.grid row {display: flex;}
+.container {display: grid; grid-row: flex;}
 row::after {float: left;}
 [class*='col-']{float: left;}
