@@ -5,6 +5,19 @@
 
 .flex-items
 {display: flex; margin: 3cm;
-
+    flex-direction: row;
 }
-/* Grid */
+
+    /* Grid  
+    ================================== */
+
+.row {
+    display: flex; float: left; 
+
+    
+}
+
+[class*='col-'] {flex-direction: row}
+
+
+
