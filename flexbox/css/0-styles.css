@@ -5,19 +5,19 @@
 
 .flex-items
 {display: flex; margin: 3cm;
-    flex-direction: row;
+    flex-direction: row; -ms-grid-row: var(after);
 }
 
     /* Grid  
     ================================== */
 
 .row {
-    display: flex; float: left; 
+    display: flex; 
 
     
 }
 
-[class*='col-'] {flex-direction: row}
+[class*='col-'] {float: left;}
 
 
 
