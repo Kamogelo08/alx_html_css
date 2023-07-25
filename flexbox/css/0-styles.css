@@ -5,7 +5,7 @@
 
 .flex-items
 {display: flex; margin: 3cm;
-    flex-direction: row; -ms-grid-row: var(after);
+    
 }
 
     /* Grid  
@@ -13,7 +13,7 @@
 
 .row {
     display: flex; 
-
+flex-direction: row; -ms-grid-row: var(after);
     
 }
 
