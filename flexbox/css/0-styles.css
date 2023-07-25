@@ -13,7 +13,7 @@
 
 .row {
     display: flex; 
-flex-direction: row; -ms-grid-row: var(after);
+flex-direction: row; grid-row: after;
     
 }
 
